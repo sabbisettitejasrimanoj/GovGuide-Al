@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GovGuide AI | Citizen Knowledge Assistant</title>
+<link rel="stylesheet" href="/static/style.css"></head>
+<body><main class="shell">
+<header><div class="logo">🇮🇳</div><div><h1>GovGuide AI</h1><p>Government information • RAG-powered guidance</p></div><span class="pill">Demo knowledge</span></header>
+<section class="notice">This assistant uses draft project notes, not a verified government database. It cannot approve eligibility. Never share OTPs, passwords, or identity numbers.</section>
+<div class="suggestions">
+<button data-q="How do I find student scholarships?">🎓 Scholarships</button>
+<button data-q="How should eligibility be checked?">📋 Eligibility</button>
+<button data-q="What should I verify for farmer support schemes?">🌾 Agriculture</button>
+<button data-q="How do I check official sources?">🔎 Source checking</button></div>
+<section id="chat" class="chat" aria-live="polite"><div class="bubble assistant">Namaste! Ask about scholarships, scheme discovery, required documents or source verification. I will show the notes used to answer.</div></section>
+<form id="form"><input id="question" maxlength="1500" required autocomplete="off" placeholder="Ask a question about government schemes..." aria-label="Your question"><button id="send" type="submit">Send ➜</button></form>
+<footer>Educational prototype • Answers must be verified with official sources</footer>
+</main><script src="/static/app.js"></script></body></html>

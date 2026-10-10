@@ -1,0 +1,11 @@
+question,expected_source,category
+What details should the assistant check for scholarships?,schemes/scholarships.md,in_notes
+Where can I start looking for national scholarships?,schemes/scholarships.md,in_notes
+Can GovGuide AI guarantee a scholarship?,schemes/scholarships.md,in_notes
+What information is needed to check possible eligibility?,guides/eligibility.md,in_notes
+Who makes the final eligibility decision?,guides/eligibility.md,in_notes
+How should the assistant verify government scheme information?,safety/source-verification.md,in_notes
+Should I give the chatbot my OTP?,safety/privacy.md,in_notes
+What does GovGuide AI do when official evidence is missing?,safety/source-verification.md,in_notes
+What is the current application deadline for a specific Andhra Pradesh scholarship?,,not_in_notes
+How much money will a farmer receive from a particular scheme this month?,,not_in_notes
